@@ -1,0 +1,11 @@
+D:\C Sharp\MobileShop\MobileShop\bin\Debug\MobileShop.exe.config
+D:\C Sharp\MobileShop\MobileShop\bin\Debug\MobileShop.exe
+D:\C Sharp\MobileShop\MobileShop\bin\Debug\MobileShop.pdb
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.csproj.AssemblyReference.cache
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.Properties.Resources.resources
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.csproj.GenerateResource.cache
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.csproj.CoreCompileInputs.cache
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.exe
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.pdb
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.AdminLoginForm.resources
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.UserLoginForm.resources
