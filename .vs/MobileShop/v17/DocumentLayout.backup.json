@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\C Sharp\\MobileShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|D:\\C Sharp\\MobileShop\\mobileshop\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|d:\\c sharp\\mobileshop\\mobileshop\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|d:\\c sharp\\mobileshop\\mobileshop\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\adminloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|d:\\c sharp\\mobileshop\\mobileshop\\userloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\userloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|d:\\c sharp\\mobileshop\\mobileshop\\userloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\userloginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|d:\\c sharp\\mobileshop\\mobileshop\\adminhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\adminhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|d:\\c sharp\\mobileshop\\mobileshop\\adminhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECE05765-250C-40CC-B1AB-CC37AF4D7314}|MobileShop\\MobileShop.csproj|solutionrelative:mobileshop\\adminhomepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,22 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserLoginForm.cs",
-              "DocumentMoniker": "D:\\C Sharp\\MobileShop\\MobileShop\\UserLoginForm.cs",
-              "RelativeDocumentMoniker": "MobileShop\\UserLoginForm.cs",
-              "ToolTip": "D:\\C Sharp\\MobileShop\\MobileShop\\UserLoginForm.cs",
-              "RelativeToolTip": "MobileShop\\UserLoginForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:18:50.179Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -51,33 +37,44 @@
               "ToolTip": "D:\\C Sharp\\MobileShop\\MobileShop\\AdminLoginForm.cs [Design]*",
               "RelativeToolTip": "MobileShop\\AdminLoginForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:37:30.286Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-07-02T09:28:54.356Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AdminLoginForm.cs",
-              "DocumentMoniker": "D:\\C Sharp\\MobileShop\\MobileShop\\AdminLoginForm.cs",
-              "RelativeDocumentMoniker": "MobileShop\\AdminLoginForm.cs",
-              "ToolTip": "D:\\C Sharp\\MobileShop\\MobileShop\\AdminLoginForm.cs*",
-              "RelativeToolTip": "MobileShop\\AdminLoginForm.cs*",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwCsAAAAgAAAAAAAAAA==",
+              "Title": "UserLoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\C Sharp\\MobileShop\\MobileShop\\UserLoginForm.cs",
+              "RelativeDocumentMoniker": "MobileShop\\UserLoginForm.cs",
+              "ToolTip": "D:\\C Sharp\\MobileShop\\MobileShop\\UserLoginForm.cs [Design]*",
+              "RelativeToolTip": "MobileShop\\UserLoginForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T04:03:20.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-02T09:28:02.803Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserLoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\C Sharp\\MobileShop\\MobileShop\\UserLoginForm.cs",
-              "RelativeDocumentMoniker": "MobileShop\\UserLoginForm.cs",
-              "ToolTip": "D:\\C Sharp\\MobileShop\\MobileShop\\UserLoginForm.cs [Design]",
-              "RelativeToolTip": "MobileShop\\UserLoginForm.cs [Design]",
+              "Title": "AdminHomepage.cs",
+              "DocumentMoniker": "D:\\C Sharp\\MobileShop\\MobileShop\\AdminHomepage.cs",
+              "RelativeDocumentMoniker": "MobileShop\\AdminHomepage.cs",
+              "ToolTip": "D:\\C Sharp\\MobileShop\\MobileShop\\AdminHomepage.cs",
+              "RelativeToolTip": "MobileShop\\AdminHomepage.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAmwBMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T03:06:48.008Z",
+              "WhenOpened": "2025-07-02T04:44:31.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminHomepage.cs [Design]",
+              "DocumentMoniker": "D:\\C Sharp\\MobileShop\\MobileShop\\AdminHomepage.cs",
+              "RelativeDocumentMoniker": "MobileShop\\AdminHomepage.cs",
+              "ToolTip": "D:\\C Sharp\\MobileShop\\MobileShop\\AdminHomepage.cs [Design]",
+              "RelativeToolTip": "MobileShop\\AdminHomepage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T04:40:49.373Z",
               "EditorCaption": " [Design]"
             }
           ]

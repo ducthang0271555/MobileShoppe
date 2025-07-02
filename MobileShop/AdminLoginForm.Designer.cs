@@ -39,13 +39,15 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(196, 219);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(105, 39);
             this.btnLogin.TabIndex = 9;
             this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtPassword
@@ -90,12 +92,12 @@
             // linkBack
             // 
             this.linkBack.AutoSize = true;
-            this.linkBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkBack.ForeColor = System.Drawing.SystemColors.ControlText;
             this.linkBack.LinkColor = System.Drawing.Color.DeepPink;
             this.linkBack.Location = new System.Drawing.Point(22, 28);
             this.linkBack.Name = "linkBack";
-            this.linkBack.Size = new System.Drawing.Size(45, 20);
+            this.linkBack.Size = new System.Drawing.Size(49, 20);
             this.linkBack.TabIndex = 10;
             this.linkBack.TabStop = true;
             this.linkBack.Text = "Back";

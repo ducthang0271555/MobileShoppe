@@ -79,24 +79,26 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.Location = new System.Drawing.Point(195, 243);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(105, 39);
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // linkAdmin
             // 
             this.linkAdmin.AutoSize = true;
-            this.linkAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkAdmin.ForeColor = System.Drawing.SystemColors.ControlText;
             this.linkAdmin.LinkColor = System.Drawing.Color.DeepPink;
             this.linkAdmin.Location = new System.Drawing.Point(323, 51);
             this.linkAdmin.Name = "linkAdmin";
-            this.linkAdmin.Size = new System.Drawing.Size(54, 20);
+            this.linkAdmin.Size = new System.Drawing.Size(59, 20);
             this.linkAdmin.TabIndex = 5;
             this.linkAdmin.TabStop = true;
             this.linkAdmin.Text = "Admin";
@@ -115,7 +117,7 @@
             this.linkForgotPwd.TabStop = true;
             this.linkForgotPwd.Text = "Forgot Password?";
             // 
-            // Form1
+            // UserLoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,7 +130,7 @@
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "UserLoginForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

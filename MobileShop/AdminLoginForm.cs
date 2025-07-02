@@ -56,8 +56,9 @@ namespace MobileShop
                         if (result != null)
                         {
                             // ✅ Đăng nhập thành công
-                            string empName = result.ToString();
-                            MessageBox.Show($"Chào Admin {empName}!", "Đăng nhập thành công");
+                            AdminHomepage adminHomepage = new AdminHomepage();
+                            adminHomepage.Show();
+                            this.Hide();
                            
                         }
                         else

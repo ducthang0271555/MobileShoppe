@@ -9,3 +9,4 @@ D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.exe
 D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.pdb
 D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.AdminLoginForm.resources
 D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.UserLoginForm.resources
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.AdminHomepage.resources
