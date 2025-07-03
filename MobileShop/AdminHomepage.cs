@@ -24,7 +24,8 @@ namespace MobileShop
             txtTransID.Text = GenerateRandomTransID();
             cboCompName.SelectedIndexChanged += cboCompName_SelectedIndexChanged;
             cboModName.SelectedIndexChanged += cboModName_SelectedIndexChanged;
-
+            cboWarranty.Items.AddRange(new object[] { "1 Year", "2 Years", "3 Years", "4 Years", "5 Years" });
+            cboWarranty.SelectedIndex = 0;
 
         }
 
@@ -359,6 +360,7 @@ namespace MobileShop
             string imeino = txtIMEINO.Text.Trim();
             string modelID = "";
             string status = txtStatus.Text.Trim();
+            string warranty = cboWarranty.Text.Trim();
             string priceText = txtPrice.Text.Trim();
 
             if (cboModelName.SelectedValue != null)
@@ -376,6 +378,13 @@ namespace MobileShop
             if (string.IsNullOrEmpty(modelID))
             {
                 MessageBox.Show("Vui lòng chọn Model Name.", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                cboModelName.Focus();
+                return;
+            }
+
+            if (string.IsNullOrEmpty(warranty))
+            {
+                MessageBox.Show("Vui lòng chọn Warranty.", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 cboModelName.Focus();
                 return;
             }
@@ -433,7 +442,7 @@ namespace MobileShop
                         }
                     }
 
-                    string insertQuery = "INSERT INTO Mobile (ModelId, IMEINO, Status, Price) VALUES (@ModelId, @IMEINO, @Status, @Price)";
+                    string insertQuery = "INSERT INTO Mobile (ModelId, IMEINO, Status, Price, Warranty) VALUES (@ModelId, @IMEINO, @Status, @Price, @Warranty)";
 
                     using (SqlCommand command = new SqlCommand(insertQuery, connection))
                     {
@@ -441,6 +450,7 @@ namespace MobileShop
                         command.Parameters.AddWithValue("@IMEINO", imeino);
                         command.Parameters.AddWithValue("@Status", status);
                         command.Parameters.AddWithValue("@Price", price);
+                        command.Parameters.AddWithValue("@Warranty", warranty);
 
                         int rowsAffected = command.ExecuteNonQuery();
 
@@ -451,6 +461,7 @@ namespace MobileShop
                             cboModelName.SelectedIndex = -1;
                             txtStatus.Clear();
                             txtPrice.Clear();
+                            cboWarranty.SelectedIndex = 0;
                             txtIMEINO.Focus();
                         }
                         else

@@ -70,20 +70,22 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.SaleReport = new System.Windows.Forms.TabPage();
-            this.Employee = new System.Windows.Forms.TabPage();
-            this.btnLogout = new System.Windows.Forms.Button();
-            this.DateToDate = new System.Windows.Forms.TabPage();
-            this.Date = new System.Windows.Forms.TabPage();
-            this.label17 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.linkSearchInDate = new System.Windows.Forms.LinkLabel();
+            this.Date = new System.Windows.Forms.TabPage();
+            this.labelTotal = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.SaleID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CompName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ModelName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EMEINO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Price = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.linkSearchInDate = new System.Windows.Forms.LinkLabel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label17 = new System.Windows.Forms.Label();
+            this.DateToDate = new System.Windows.Forms.TabPage();
+            this.labelTotal1 = new System.Windows.Forms.Label();
+            this.dateTimePickerTo = new System.Windows.Forms.DateTimePicker();
+            this.label18 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -93,10 +95,13 @@
             this.linkSearchDateToDate = new System.Windows.Forms.LinkLabel();
             this.dateTimePickerFrom = new System.Windows.Forms.DateTimePicker();
             this.label16 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.dateTimePickerTo = new System.Windows.Forms.DateTimePicker();
-            this.labelTotal = new System.Windows.Forms.Label();
-            this.labelTotal1 = new System.Windows.Forms.Label();
+            this.Employee = new System.Windows.Forms.TabPage();
+            this.txtHint = new System.Windows.Forms.TextBox();
+            this.txtRetypePassword = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.txtMobile = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
@@ -106,12 +111,9 @@
             this.txtEmployeeName = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.txtRetypePassword = new System.Windows.Forms.TextBox();
-            this.txtHint = new System.Windows.Forms.TextBox();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.label26 = new System.Windows.Forms.Label();
+            this.cboWarranty = new System.Windows.Forms.ComboBox();
             this.mainTabControl.SuspendLayout();
             this.Add.SuspendLayout();
             this.tabAddSub.SuspendLayout();
@@ -120,12 +122,12 @@
             this.Mobile.SuspendLayout();
             this.UpdateStock.SuspendLayout();
             this.SaleReport.SuspendLayout();
-            this.Employee.SuspendLayout();
-            this.DateToDate.SuspendLayout();
-            this.Date.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.Date.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.DateToDate.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.Employee.SuspendLayout();
             this.SuspendLayout();
             // 
             // mainTabControl
@@ -343,6 +345,8 @@
             // Mobile
             // 
             this.Mobile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Mobile.Controls.Add(this.cboWarranty);
+            this.Mobile.Controls.Add(this.label26);
             this.Mobile.Controls.Add(this.cboModelName);
             this.Mobile.Controls.Add(this.txtStatus);
             this.Mobile.Controls.Add(this.label7);
@@ -365,7 +369,7 @@
             this.cboModelName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboModelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboModelName.FormattingEnabled = true;
-            this.cboModelName.Location = new System.Drawing.Point(350, 75);
+            this.cboModelName.Location = new System.Drawing.Point(350, 64);
             this.cboModelName.Name = "cboModelName";
             this.cboModelName.Size = new System.Drawing.Size(175, 28);
             this.cboModelName.TabIndex = 32;
@@ -374,7 +378,7 @@
             // 
             this.txtStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStatus.Location = new System.Drawing.Point(350, 123);
+            this.txtStatus.Location = new System.Drawing.Point(350, 108);
             this.txtStatus.Name = "txtStatus";
             this.txtStatus.Size = new System.Drawing.Size(175, 26);
             this.txtStatus.TabIndex = 31;
@@ -383,17 +387,17 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(110, 177);
+            this.label7.Location = new System.Drawing.Point(110, 154);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 20);
+            this.label7.Size = new System.Drawing.Size(73, 20);
             this.label7.TabIndex = 30;
-            this.label7.Text = "Price";
+            this.label7.Text = "Warranty";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(110, 129);
+            this.label8.Location = new System.Drawing.Point(110, 114);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(56, 20);
             this.label8.TabIndex = 29;
@@ -403,7 +407,7 @@
             // 
             this.btnAddMobile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddMobile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddMobile.Location = new System.Drawing.Point(384, 227);
+            this.btnAddMobile.Location = new System.Drawing.Point(383, 230);
             this.btnAddMobile.Name = "btnAddMobile";
             this.btnAddMobile.Size = new System.Drawing.Size(105, 39);
             this.btnAddMobile.TabIndex = 28;
@@ -415,7 +419,7 @@
             // 
             this.txtPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrice.Location = new System.Drawing.Point(350, 175);
+            this.txtPrice.Location = new System.Drawing.Point(350, 188);
             this.txtPrice.Name = "txtPrice";
             this.txtPrice.Size = new System.Drawing.Size(175, 26);
             this.txtPrice.TabIndex = 27;
@@ -433,7 +437,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(110, 83);
+            this.label9.Location = new System.Drawing.Point(110, 72);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(98, 20);
             this.label9.TabIndex = 25;
@@ -593,61 +597,15 @@
             this.SaleReport.Text = "Sale Report";
             this.SaleReport.UseVisualStyleBackColor = true;
             // 
-            // Employee
+            // tabControl1
             // 
-            this.Employee.Controls.Add(this.txtHint);
-            this.Employee.Controls.Add(this.txtRetypePassword);
-            this.Employee.Controls.Add(this.txtPassword);
-            this.Employee.Controls.Add(this.txtUserName);
-            this.Employee.Controls.Add(this.label25);
-            this.Employee.Controls.Add(this.label24);
-            this.Employee.Controls.Add(this.label19);
-            this.Employee.Controls.Add(this.txtMobile);
-            this.Employee.Controls.Add(this.label20);
-            this.Employee.Controls.Add(this.label21);
-            this.Employee.Controls.Add(this.btnAddEmployee);
-            this.Employee.Controls.Add(this.txtAddress);
-            this.Employee.Controls.Add(this.txtEmployeeName);
-            this.Employee.Controls.Add(this.label22);
-            this.Employee.Controls.Add(this.label23);
-            this.Employee.Location = new System.Drawing.Point(4, 25);
-            this.Employee.Name = "Employee";
-            this.Employee.Size = new System.Drawing.Size(646, 311);
-            this.Employee.TabIndex = 3;
-            this.Employee.Text = "Employee";
-            this.Employee.UseVisualStyleBackColor = true;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.Khaki;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnLogout.Location = new System.Drawing.Point(512, 358);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(105, 39);
-            this.btnLogout.TabIndex = 15;
-            this.btnLogout.Text = "Log Out";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // DateToDate
-            // 
-            this.DateToDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.DateToDate.Controls.Add(this.labelTotal1);
-            this.DateToDate.Controls.Add(this.dateTimePickerTo);
-            this.DateToDate.Controls.Add(this.label18);
-            this.DateToDate.Controls.Add(this.dataGridView2);
-            this.DateToDate.Controls.Add(this.linkSearchDateToDate);
-            this.DateToDate.Controls.Add(this.dateTimePickerFrom);
-            this.DateToDate.Controls.Add(this.label16);
-            this.DateToDate.Location = new System.Drawing.Point(4, 25);
-            this.DateToDate.Name = "DateToDate";
-            this.DateToDate.Padding = new System.Windows.Forms.Padding(3);
-            this.DateToDate.Size = new System.Drawing.Size(637, 286);
-            this.DateToDate.TabIndex = 1;
-            this.DateToDate.Text = "Date To Date";
-            this.DateToDate.UseVisualStyleBackColor = true;
+            this.tabControl1.Controls.Add(this.Date);
+            this.tabControl1.Controls.Add(this.DateToDate);
+            this.tabControl1.Location = new System.Drawing.Point(1, -2);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(645, 315);
+            this.tabControl1.TabIndex = 1;
             // 
             // Date
             // 
@@ -665,48 +623,14 @@
             this.Date.Text = "Date";
             this.Date.UseVisualStyleBackColor = true;
             // 
-            // label17
+            // labelTotal
             // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(8, 8);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(93, 20);
-            this.label17.TabIndex = 10;
-            this.label17.Text = "Select Date";
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.Date);
-            this.tabControl1.Controls.Add(this.DateToDate);
-            this.tabControl1.Location = new System.Drawing.Point(1, -2);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(645, 315);
-            this.tabControl1.TabIndex = 1;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(103, 6);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(128, 22);
-            this.dateTimePicker1.TabIndex = 15;
-            // 
-            // linkSearchInDate
-            // 
-            this.linkSearchInDate.AutoSize = true;
-            this.linkSearchInDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkSearchInDate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.linkSearchInDate.LinkColor = System.Drawing.Color.DeepPink;
-            this.linkSearchInDate.Location = new System.Drawing.Point(271, 8);
-            this.linkSearchInDate.Name = "linkSearchInDate";
-            this.linkSearchInDate.Size = new System.Drawing.Size(66, 20);
-            this.linkSearchInDate.TabIndex = 16;
-            this.linkSearchInDate.TabStop = true;
-            this.linkSearchInDate.Text = "Search";
-            this.linkSearchInDate.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSearchInDate_LinkClicked);
+            this.labelTotal.AutoSize = true;
+            this.labelTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTotal.Location = new System.Drawing.Point(8, 261);
+            this.labelTotal.Name = "labelTotal";
+            this.labelTotal.Size = new System.Drawing.Size(0, 20);
+            this.labelTotal.TabIndex = 25;
             // 
             // dataGridView1
             // 
@@ -765,6 +689,85 @@
             this.Price.Name = "Price";
             this.Price.ReadOnly = true;
             this.Price.Width = 122;
+            // 
+            // linkSearchInDate
+            // 
+            this.linkSearchInDate.AutoSize = true;
+            this.linkSearchInDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkSearchInDate.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.linkSearchInDate.LinkColor = System.Drawing.Color.DeepPink;
+            this.linkSearchInDate.Location = new System.Drawing.Point(271, 8);
+            this.linkSearchInDate.Name = "linkSearchInDate";
+            this.linkSearchInDate.Size = new System.Drawing.Size(66, 20);
+            this.linkSearchInDate.TabIndex = 16;
+            this.linkSearchInDate.TabStop = true;
+            this.linkSearchInDate.Text = "Search";
+            this.linkSearchInDate.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkSearchInDate_LinkClicked);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(103, 6);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(128, 22);
+            this.dateTimePicker1.TabIndex = 15;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(8, 8);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(93, 20);
+            this.label17.TabIndex = 10;
+            this.label17.Text = "Select Date";
+            // 
+            // DateToDate
+            // 
+            this.DateToDate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.DateToDate.Controls.Add(this.labelTotal1);
+            this.DateToDate.Controls.Add(this.dateTimePickerTo);
+            this.DateToDate.Controls.Add(this.label18);
+            this.DateToDate.Controls.Add(this.dataGridView2);
+            this.DateToDate.Controls.Add(this.linkSearchDateToDate);
+            this.DateToDate.Controls.Add(this.dateTimePickerFrom);
+            this.DateToDate.Controls.Add(this.label16);
+            this.DateToDate.Location = new System.Drawing.Point(4, 25);
+            this.DateToDate.Name = "DateToDate";
+            this.DateToDate.Padding = new System.Windows.Forms.Padding(3);
+            this.DateToDate.Size = new System.Drawing.Size(637, 286);
+            this.DateToDate.TabIndex = 1;
+            this.DateToDate.Text = "Date To Date";
+            this.DateToDate.UseVisualStyleBackColor = true;
+            // 
+            // labelTotal1
+            // 
+            this.labelTotal1.AutoSize = true;
+            this.labelTotal1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTotal1.Location = new System.Drawing.Point(2, 261);
+            this.labelTotal1.Name = "labelTotal1";
+            this.labelTotal1.Size = new System.Drawing.Size(0, 20);
+            this.labelTotal1.TabIndex = 26;
+            // 
+            // dateTimePickerTo
+            // 
+            this.dateTimePickerTo.CustomFormat = "dd/MM/yyyy";
+            this.dateTimePickerTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePickerTo.Location = new System.Drawing.Point(309, 5);
+            this.dateTimePickerTo.Name = "dateTimePickerTo";
+            this.dateTimePickerTo.Size = new System.Drawing.Size(128, 22);
+            this.dateTimePickerTo.TabIndex = 23;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(263, 7);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(27, 20);
+            this.label18.TabIndex = 22;
+            this.label18.Text = "To";
             // 
             // dataGridView2
             // 
@@ -857,42 +860,87 @@
             this.label16.TabIndex = 18;
             this.label16.Text = "Starting Date";
             // 
-            // label18
+            // Employee
             // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(263, 7);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(27, 20);
-            this.label18.TabIndex = 22;
-            this.label18.Text = "To";
+            this.Employee.Controls.Add(this.txtHint);
+            this.Employee.Controls.Add(this.txtRetypePassword);
+            this.Employee.Controls.Add(this.txtPassword);
+            this.Employee.Controls.Add(this.txtUserName);
+            this.Employee.Controls.Add(this.label25);
+            this.Employee.Controls.Add(this.label24);
+            this.Employee.Controls.Add(this.label19);
+            this.Employee.Controls.Add(this.txtMobile);
+            this.Employee.Controls.Add(this.label20);
+            this.Employee.Controls.Add(this.label21);
+            this.Employee.Controls.Add(this.btnAddEmployee);
+            this.Employee.Controls.Add(this.txtAddress);
+            this.Employee.Controls.Add(this.txtEmployeeName);
+            this.Employee.Controls.Add(this.label22);
+            this.Employee.Controls.Add(this.label23);
+            this.Employee.Location = new System.Drawing.Point(4, 25);
+            this.Employee.Name = "Employee";
+            this.Employee.Size = new System.Drawing.Size(646, 311);
+            this.Employee.TabIndex = 3;
+            this.Employee.Text = "Employee";
+            this.Employee.UseVisualStyleBackColor = true;
             // 
-            // dateTimePickerTo
+            // txtHint
             // 
-            this.dateTimePickerTo.CustomFormat = "dd/MM/yyyy";
-            this.dateTimePickerTo.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePickerTo.Location = new System.Drawing.Point(309, 5);
-            this.dateTimePickerTo.Name = "dateTimePickerTo";
-            this.dateTimePickerTo.Size = new System.Drawing.Size(128, 22);
-            this.dateTimePickerTo.TabIndex = 23;
+            this.txtHint.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtHint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHint.Location = new System.Drawing.Point(293, 231);
+            this.txtHint.Name = "txtHint";
+            this.txtHint.Size = new System.Drawing.Size(175, 26);
+            this.txtHint.TabIndex = 51;
             // 
-            // labelTotal
+            // txtRetypePassword
             // 
-            this.labelTotal.AutoSize = true;
-            this.labelTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotal.Location = new System.Drawing.Point(8, 261);
-            this.labelTotal.Name = "labelTotal";
-            this.labelTotal.Size = new System.Drawing.Size(0, 20);
-            this.labelTotal.TabIndex = 25;
+            this.txtRetypePassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtRetypePassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtRetypePassword.Location = new System.Drawing.Point(293, 200);
+            this.txtRetypePassword.Name = "txtRetypePassword";
+            this.txtRetypePassword.Size = new System.Drawing.Size(175, 26);
+            this.txtRetypePassword.TabIndex = 50;
+            this.txtRetypePassword.UseSystemPasswordChar = true;
             // 
-            // labelTotal1
+            // txtPassword
             // 
-            this.labelTotal1.AutoSize = true;
-            this.labelTotal1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotal1.Location = new System.Drawing.Point(2, 261);
-            this.labelTotal1.Name = "labelTotal1";
-            this.labelTotal1.Size = new System.Drawing.Size(0, 20);
-            this.labelTotal1.TabIndex = 26;
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPassword.Location = new System.Drawing.Point(293, 165);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(175, 26);
+            this.txtPassword.TabIndex = 49;
+            this.txtPassword.UseSystemPasswordChar = true;
+            // 
+            // txtUserName
+            // 
+            this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.Location = new System.Drawing.Point(293, 131);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(175, 26);
+            this.txtUserName.TabIndex = 48;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(53, 237);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(38, 20);
+            this.label25.TabIndex = 47;
+            this.label25.Text = "Hint";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(53, 206);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(129, 20);
+            this.label24.TabIndex = 46;
+            this.label24.Text = "RetypePassword";
             // 
             // label19
             // 
@@ -983,63 +1031,39 @@
             this.label23.TabIndex = 35;
             this.label23.Text = "Employee Name";
             // 
-            // label24
+            // btnLogout
             // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(53, 206);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(129, 20);
-            this.label24.TabIndex = 46;
-            this.label24.Text = "RetypePassword";
+            this.btnLogout.BackColor = System.Drawing.Color.Khaki;
+            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogout.ForeColor = System.Drawing.Color.OrangeRed;
+            this.btnLogout.Location = new System.Drawing.Point(512, 358);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(105, 39);
+            this.btnLogout.TabIndex = 15;
+            this.btnLogout.Text = "Log Out";
+            this.btnLogout.UseVisualStyleBackColor = false;
+            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
             // 
-            // label25
+            // label26
             // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(53, 237);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(38, 20);
-            this.label25.TabIndex = 47;
-            this.label25.Text = "Hint";
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(110, 194);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(44, 20);
+            this.label26.TabIndex = 33;
+            this.label26.Text = "Price";
             // 
-            // txtUserName
+            // cboWarranty
             // 
-            this.txtUserName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserName.Location = new System.Drawing.Point(293, 131);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(175, 26);
-            this.txtUserName.TabIndex = 48;
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(293, 165);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(175, 26);
-            this.txtPassword.TabIndex = 49;
-            this.txtPassword.UseSystemPasswordChar = true;
-            // 
-            // txtRetypePassword
-            // 
-            this.txtRetypePassword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtRetypePassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRetypePassword.Location = new System.Drawing.Point(293, 200);
-            this.txtRetypePassword.Name = "txtRetypePassword";
-            this.txtRetypePassword.Size = new System.Drawing.Size(175, 26);
-            this.txtRetypePassword.TabIndex = 50;
-            this.txtRetypePassword.UseSystemPasswordChar = true;
-            // 
-            // txtHint
-            // 
-            this.txtHint.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtHint.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtHint.Location = new System.Drawing.Point(293, 231);
-            this.txtHint.Name = "txtHint";
-            this.txtHint.Size = new System.Drawing.Size(175, 26);
-            this.txtHint.TabIndex = 51;
+            this.cboWarranty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboWarranty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboWarranty.FormattingEnabled = true;
+            this.cboWarranty.Location = new System.Drawing.Point(350, 146);
+            this.cboWarranty.Name = "cboWarranty";
+            this.cboWarranty.Size = new System.Drawing.Size(175, 28);
+            this.cboWarranty.TabIndex = 34;
             // 
             // AdminHomepage
             // 
@@ -1063,15 +1087,15 @@
             this.UpdateStock.ResumeLayout(false);
             this.UpdateStock.PerformLayout();
             this.SaleReport.ResumeLayout(false);
-            this.Employee.ResumeLayout(false);
-            this.Employee.PerformLayout();
-            this.DateToDate.ResumeLayout(false);
-            this.DateToDate.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
             this.Date.ResumeLayout(false);
             this.Date.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.DateToDate.ResumeLayout(false);
+            this.DateToDate.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.Employee.ResumeLayout(false);
+            this.Employee.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1162,5 +1186,7 @@
         private System.Windows.Forms.TextBox txtEmployeeName;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.ComboBox cboWarranty;
     }
 }
