@@ -51,11 +51,10 @@ namespace MobileShop
                             string role = reader["Actions"].ToString();
                             string empName = reader["EmployeeName"].ToString();
 
-                            MessageBox.Show($"Xin chào {empName} ({role})!", "Đăng nhập thành công");
 
                             // TODO: mở form chính theo quyền
-                            // if (role == "Admin") { new AdminForm().Show(); }
-                            // else { new EmployeeForm().Show(); }
+                            if (role == "Admin") { new AdminHomepage().Show(); }
+                            else { new UserHomePage().Show(); }
 
                             this.Hide(); // ẩn form đăng nhập
                         }
@@ -77,6 +76,13 @@ namespace MobileShop
             AdminLoginForm adminForm = new AdminLoginForm();
             adminForm.Show();
             this.Hide();
+        }
+
+        private void linkForgotPwd_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgetPasswordForm forgetPasswordForm = new ForgetPasswordForm();
+            this.Hide();
+            forgetPasswordForm.Show();
         }
     }
 }

@@ -10,3 +10,18 @@ D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.pdb
 D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.AdminLoginForm.resources
 D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.UserLoginForm.resources
 D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.AdminHomepage.resources
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\bin\Debug\MobileShop.exe.config
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\bin\Debug\MobileShop.exe
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\bin\Debug\MobileShop.pdb
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.AdminHomepage.resources
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.AdminLoginForm.resources
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.UserLoginForm.resources
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.Properties.Resources.resources
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.csproj.GenerateResource.cache
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.exe
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.pdb
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.ForgetPasswordForm.resources
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.UserHomePage.resources
+C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.ConfirmDetails.resources

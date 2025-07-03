@@ -59,7 +59,25 @@
     <Compile Include="AdminLoginForm.Designer.cs">
       <DependentUpon>AdminLoginForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ConfirmDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmDetails.Designer.cs">
+      <DependentUpon>ConfirmDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="DatabaseHelper.cs" />
+    <Compile Include="ForgetPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgetPasswordForm.Designer.cs">
+      <DependentUpon>ForgetPasswordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserHomePage.Designer.cs">
+      <DependentUpon>UserHomePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +91,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AdminLoginForm.resx">
       <DependentUpon>AdminLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmDetails.resx">
+      <DependentUpon>ConfirmDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgetPasswordForm.resx">
+      <DependentUpon>ForgetPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserHomePage.resx">
+      <DependentUpon>UserHomePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserLoginForm.resx">
       <DependentUpon>UserLoginForm.cs</DependentUpon>
