@@ -115,6 +115,7 @@
             this.linkForgotPwd.TabIndex = 11;
             this.linkForgotPwd.TabStop = true;
             this.linkForgotPwd.Text = "Forgot Password?";
+            this.linkForgotPwd.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkForgotPwd_LinkClicked);
             // 
             // AdminLoginForm
             // 

@@ -67,5 +67,12 @@ namespace MobileShop
                 MessageBox.Show("Lỗi kết nối: " + ex.Message);
             }
         }
+
+        private void linkForgotPwd_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgetPasswordForm forgetPasswordForm = new ForgetPasswordForm();
+            this.Hide();
+            forgetPasswordForm.Show();
+        }
     }
 }
