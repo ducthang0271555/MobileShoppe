@@ -138,20 +138,18 @@
             this.mainTabControl.Controls.Add(this.Employee);
             this.mainTabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mainTabControl.Location = new System.Drawing.Point(0, 1);
-            this.mainTabControl.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mainTabControl.Name = "mainTabControl";
             this.mainTabControl.SelectedIndex = 0;
-            this.mainTabControl.Size = new System.Drawing.Size(872, 418);
+            this.mainTabControl.Size = new System.Drawing.Size(654, 340);
             this.mainTabControl.TabIndex = 0;
             // 
             // Add
             // 
             this.Add.Controls.Add(this.tabAddSub);
-            this.Add.Location = new System.Drawing.Point(4, 29);
-            this.Add.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Add.Location = new System.Drawing.Point(4, 25);
             this.Add.Name = "Add";
-            this.Add.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Add.Size = new System.Drawing.Size(864, 385);
+            this.Add.Padding = new System.Windows.Forms.Padding(3);
+            this.Add.Size = new System.Drawing.Size(646, 311);
             this.Add.TabIndex = 0;
             this.Add.Text = "Add";
             this.Add.UseVisualStyleBackColor = true;
@@ -162,10 +160,9 @@
             this.tabAddSub.Controls.Add(this.Model);
             this.tabAddSub.Controls.Add(this.Mobile);
             this.tabAddSub.Location = new System.Drawing.Point(0, 0);
-            this.tabAddSub.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabAddSub.Name = "tabAddSub";
             this.tabAddSub.SelectedIndex = 0;
-            this.tabAddSub.Size = new System.Drawing.Size(860, 388);
+            this.tabAddSub.Size = new System.Drawing.Size(645, 315);
             this.tabAddSub.TabIndex = 0;
             // 
             // Company
@@ -176,11 +173,10 @@
             this.Company.Controls.Add(this.txtCompanyID);
             this.Company.Controls.Add(this.label2);
             this.Company.Controls.Add(this.label1);
-            this.Company.Location = new System.Drawing.Point(4, 29);
-            this.Company.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Company.Location = new System.Drawing.Point(4, 25);
             this.Company.Name = "Company";
-            this.Company.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Company.Size = new System.Drawing.Size(852, 355);
+            this.Company.Padding = new System.Windows.Forms.Padding(3);
+            this.Company.Size = new System.Drawing.Size(637, 286);
             this.Company.TabIndex = 0;
             this.Company.Text = "Company";
             this.Company.UseVisualStyleBackColor = true;
@@ -189,10 +185,9 @@
             // 
             this.btnAddCompany.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddCompany.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddCompany.Location = new System.Drawing.Point(405, 241);
-            this.btnAddCompany.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddCompany.Location = new System.Drawing.Point(304, 196);
             this.btnAddCompany.Name = "btnAddCompany";
-            this.btnAddCompany.Size = new System.Drawing.Size(140, 48);
+            this.btnAddCompany.Size = new System.Drawing.Size(105, 39);
             this.btnAddCompany.TabIndex = 14;
             this.btnAddCompany.Text = "ADD";
             this.btnAddCompany.UseVisualStyleBackColor = true;
@@ -202,18 +197,16 @@
             // 
             this.txtCompanyName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCompanyName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCompanyName.Location = new System.Drawing.Point(367, 158);
-            this.txtCompanyName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCompanyName.Location = new System.Drawing.Point(275, 128);
             this.txtCompanyName.Name = "txtCompanyName";
-            this.txtCompanyName.Size = new System.Drawing.Size(233, 30);
+            this.txtCompanyName.Size = new System.Drawing.Size(175, 26);
             this.txtCompanyName.TabIndex = 13;
             // 
             // txtCompanyID
             // 
             this.txtCompanyID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCompanyID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCompanyID.Location = new System.Drawing.Point(367, 78);
-            this.txtCompanyID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCompanyID.Location = new System.Drawing.Point(275, 63);
             this.txtCompanyID.Name = "txtCompanyID";
             this.txtCompanyID.ReadOnly = true;
             this.txtCompanyID.Size = new System.Drawing.Size(175, 26);
@@ -223,10 +216,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(117, 165);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(88, 134);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(149, 25);
+            this.label2.Size = new System.Drawing.Size(118, 20);
             this.label2.TabIndex = 11;
             this.label2.Text = "CompanyName";
             // 
@@ -234,10 +226,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(117, 85);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(88, 69);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 25);
+            this.label1.Size = new System.Drawing.Size(93, 20);
             this.label1.TabIndex = 10;
             this.label1.Text = "CompanyID";
             // 
@@ -253,11 +244,10 @@
             this.Model.Controls.Add(this.txtModelID);
             this.Model.Controls.Add(this.label3);
             this.Model.Controls.Add(this.label4);
-            this.Model.Location = new System.Drawing.Point(4, 29);
-            this.Model.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Model.Location = new System.Drawing.Point(4, 25);
             this.Model.Name = "Model";
-            this.Model.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Model.Size = new System.Drawing.Size(852, 355);
+            this.Model.Padding = new System.Windows.Forms.Padding(3);
+            this.Model.Size = new System.Drawing.Size(637, 286);
             this.Model.TabIndex = 1;
             this.Model.Text = "Model";
             this.Model.UseVisualStyleBackColor = true;
@@ -267,30 +257,27 @@
             this.cboCompanyName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCompanyName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboCompanyName.FormattingEnabled = true;
-            this.cboCompanyName.Location = new System.Drawing.Point(432, 202);
-            this.cboCompanyName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboCompanyName.Location = new System.Drawing.Point(324, 164);
             this.cboCompanyName.Name = "cboCompanyName";
-            this.cboCompanyName.Size = new System.Drawing.Size(232, 33);
+            this.cboCompanyName.Size = new System.Drawing.Size(175, 28);
             this.cboCompanyName.TabIndex = 23;
             // 
             // txtAvailableQty
             // 
             this.txtAvailableQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtAvailableQty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAvailableQty.Location = new System.Drawing.Point(432, 145);
-            this.txtAvailableQty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAvailableQty.Location = new System.Drawing.Point(324, 118);
             this.txtAvailableQty.Name = "txtAvailableQty";
-            this.txtAvailableQty.Size = new System.Drawing.Size(233, 30);
+            this.txtAvailableQty.Size = new System.Drawing.Size(175, 26);
             this.txtAvailableQty.TabIndex = 22;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(112, 212);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(84, 172);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(154, 25);
+            this.label6.Size = new System.Drawing.Size(122, 20);
             this.label6.TabIndex = 21;
             this.label6.Text = "Company Name";
             // 
@@ -298,10 +285,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(112, 153);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(84, 124);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(170, 25);
+            this.label5.Size = new System.Drawing.Size(135, 20);
             this.label5.TabIndex = 20;
             this.label5.Text = "Available Quantity";
             // 
@@ -309,10 +295,9 @@
             // 
             this.btnAddModel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddModel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddModel.Location = new System.Drawing.Point(477, 273);
-            this.btnAddModel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddModel.Location = new System.Drawing.Point(358, 222);
             this.btnAddModel.Name = "btnAddModel";
-            this.btnAddModel.Size = new System.Drawing.Size(140, 48);
+            this.btnAddModel.Size = new System.Drawing.Size(105, 39);
             this.btnAddModel.TabIndex = 19;
             this.btnAddModel.Text = "ADD";
             this.btnAddModel.UseVisualStyleBackColor = true;
@@ -322,18 +307,16 @@
             // 
             this.txtModelName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtModelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtModelName.Location = new System.Drawing.Point(432, 89);
-            this.txtModelName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtModelName.Location = new System.Drawing.Point(324, 72);
             this.txtModelName.Name = "txtModelName";
-            this.txtModelName.Size = new System.Drawing.Size(233, 30);
+            this.txtModelName.Size = new System.Drawing.Size(175, 26);
             this.txtModelName.TabIndex = 18;
             // 
             // txtModelID
             // 
             this.txtModelID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtModelID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtModelID.Location = new System.Drawing.Point(432, 22);
-            this.txtModelID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtModelID.Location = new System.Drawing.Point(324, 18);
             this.txtModelID.Name = "txtModelID";
             this.txtModelID.ReadOnly = true;
             this.txtModelID.Size = new System.Drawing.Size(175, 26);
@@ -343,10 +326,9 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(112, 96);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(84, 78);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 25);
+            this.label3.Size = new System.Drawing.Size(98, 20);
             this.label3.TabIndex = 16;
             this.label3.Text = "Model Name";
             // 
@@ -354,10 +336,9 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(112, 30);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(84, 24);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 25);
+            this.label4.Size = new System.Drawing.Size(73, 20);
             this.label4.TabIndex = 15;
             this.label4.Text = "Model ID";
             // 
@@ -375,11 +356,10 @@
             this.Mobile.Controls.Add(this.txtIMEINO);
             this.Mobile.Controls.Add(this.label9);
             this.Mobile.Controls.Add(this.label10);
-            this.Mobile.Location = new System.Drawing.Point(4, 29);
-            this.Mobile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Mobile.Location = new System.Drawing.Point(4, 25);
             this.Mobile.Name = "Mobile";
-            this.Mobile.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Mobile.Size = new System.Drawing.Size(852, 355);
+            this.Mobile.Padding = new System.Windows.Forms.Padding(3);
+            this.Mobile.Size = new System.Drawing.Size(637, 286);
             this.Mobile.TabIndex = 2;
             this.Mobile.Text = "Mobile";
             this.Mobile.UseVisualStyleBackColor = true;
@@ -391,25 +371,25 @@
             this.cboModelName.FormattingEnabled = true;
             this.cboModelName.Location = new System.Drawing.Point(350, 64);
             this.cboModelName.Name = "cboModelName";
-            this.cboModelName.Size = new System.Drawing.Size(232, 33);
+            this.cboModelName.Size = new System.Drawing.Size(175, 28);
             this.cboModelName.TabIndex = 32;
             // 
             // txtStatus
             // 
             this.txtStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtStatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStatus.Location = new System.Drawing.Point(350, 123);
+            this.txtStatus.Location = new System.Drawing.Point(350, 108);
             this.txtStatus.Name = "txtStatus";
-            this.txtStatus.Size = new System.Drawing.Size(233, 30);
+            this.txtStatus.Size = new System.Drawing.Size(175, 26);
             this.txtStatus.TabIndex = 31;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(110, 177);
+            this.label7.Location = new System.Drawing.Point(110, 154);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 20);
+            this.label7.Size = new System.Drawing.Size(73, 20);
             this.label7.TabIndex = 30;
             this.label7.Text = "Warranty";
             // 
@@ -417,9 +397,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(110, 129);
+            this.label8.Location = new System.Drawing.Point(110, 114);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(68, 25);
+            this.label8.Size = new System.Drawing.Size(56, 20);
             this.label8.TabIndex = 29;
             this.label8.Text = "Status";
             // 
@@ -427,9 +407,9 @@
             // 
             this.btnAddMobile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddMobile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddMobile.Location = new System.Drawing.Point(384, 227);
+            this.btnAddMobile.Location = new System.Drawing.Point(383, 230);
             this.btnAddMobile.Name = "btnAddMobile";
-            this.btnAddMobile.Size = new System.Drawing.Size(140, 48);
+            this.btnAddMobile.Size = new System.Drawing.Size(105, 39);
             this.btnAddMobile.TabIndex = 28;
             this.btnAddMobile.Text = "ADD";
             this.btnAddMobile.UseVisualStyleBackColor = true;
@@ -439,28 +419,27 @@
             // 
             this.txtPrice.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPrice.Location = new System.Drawing.Point(350, 175);
+            this.txtPrice.Location = new System.Drawing.Point(350, 188);
             this.txtPrice.Name = "txtPrice";
-            this.txtPrice.Size = new System.Drawing.Size(233, 30);
+            this.txtPrice.Size = new System.Drawing.Size(175, 26);
             this.txtPrice.TabIndex = 27;
             // 
             // txtIMEINO
             // 
             this.txtIMEINO.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtIMEINO.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtIMEINO.Location = new System.Drawing.Point(467, 28);
-            this.txtIMEINO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtIMEINO.Location = new System.Drawing.Point(350, 23);
             this.txtIMEINO.Name = "txtIMEINO";
-            this.txtIMEINO.Size = new System.Drawing.Size(233, 30);
+            this.txtIMEINO.Size = new System.Drawing.Size(175, 26);
             this.txtIMEINO.TabIndex = 26;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(110, 83);
+            this.label9.Location = new System.Drawing.Point(110, 72);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(123, 25);
+            this.label9.Size = new System.Drawing.Size(98, 20);
             this.label9.TabIndex = 25;
             this.label9.Text = "Model Name";
             // 
@@ -468,10 +447,9 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(147, 36);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(110, 29);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 25);
+            this.label10.Size = new System.Drawing.Size(67, 20);
             this.label10.TabIndex = 24;
             this.label10.Text = "IMEI No";
             // 
@@ -619,43 +597,7 @@
             this.SaleReport.Text = "Sale Report";
             this.SaleReport.UseVisualStyleBackColor = true;
             // 
-            // Employee
-            // 
-            this.Employee.Controls.Add(this.txtHint);
-            this.Employee.Controls.Add(this.txtRetypePassword);
-            this.Employee.Controls.Add(this.txtPassword);
-            this.Employee.Controls.Add(this.txtUserName);
-            this.Employee.Controls.Add(this.label25);
-            this.Employee.Controls.Add(this.label24);
-            this.Employee.Controls.Add(this.label19);
-            this.Employee.Controls.Add(this.txtMobile);
-            this.Employee.Controls.Add(this.label20);
-            this.Employee.Controls.Add(this.label21);
-            this.Employee.Controls.Add(this.btnAddEmployee);
-            this.Employee.Controls.Add(this.txtAddress);
-            this.Employee.Controls.Add(this.txtEmployeeName);
-            this.Employee.Controls.Add(this.label22);
-            this.Employee.Controls.Add(this.label23);
-            this.Employee.Location = new System.Drawing.Point(4, 25);
-            this.Employee.Name = "Employee";
-            this.Employee.Size = new System.Drawing.Size(646, 311);
-            this.Employee.TabIndex = 3;
-            this.Employee.Text = "Employee";
-            this.Employee.UseVisualStyleBackColor = true;
-            // 
-            // btnLogout
-            // 
-            this.btnLogout.BackColor = System.Drawing.Color.Khaki;
-            this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogout.ForeColor = System.Drawing.Color.OrangeRed;
-            this.btnLogout.Location = new System.Drawing.Point(512, 358);
-            this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(105, 39);
-            this.btnLogout.TabIndex = 15;
-            this.btnLogout.Text = "Log Out";
-            this.btnLogout.UseVisualStyleBackColor = false;
-            this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
+            // tabControl1
             // 
             this.tabControl1.Controls.Add(this.Date);
             this.tabControl1.Controls.Add(this.DateToDate);
@@ -1125,13 +1067,12 @@
             // 
             // AdminHomepage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Linen;
-            this.ClientSize = new System.Drawing.Size(876, 514);
+            this.ClientSize = new System.Drawing.Size(657, 418);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.mainTabControl);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AdminHomepage";
             this.Text = "AdminHomepage";
             this.mainTabControl.ResumeLayout(false);

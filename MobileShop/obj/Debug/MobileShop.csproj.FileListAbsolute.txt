@@ -25,3 +25,6 @@ C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.pdb
 C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.ForgetPasswordForm.resources
 C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.UserHomePage.resources
 C:\Users\ADMIN\Source\Repos\MobileShoppe\MobileShop\obj\Debug\MobileShop.ConfirmDetails.resources
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.ConfirmDetails.resources
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.ForgetPasswordForm.resources
+D:\C Sharp\MobileShop\MobileShop\obj\Debug\MobileShop.UserHomePage.resources
