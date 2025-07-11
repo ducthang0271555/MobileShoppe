@@ -34,7 +34,7 @@ namespace MobileShop
             string input = textbox.Text.Trim();
 
             // Kiểm tra: chỉ gồm số và độ dài đúng 12
-            if (input.Length == 12 && input.All(char.IsDigit))
+            if (input.Length == 16 && input.All(char.IsDigit))
             {
                 return true;
             }
@@ -173,11 +173,6 @@ namespace MobileShop
                 form.Show();
             }
         }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
        
 
         private void txtPrice_KeyPress_1(object sender, KeyPressEventArgs e)
@@ -190,7 +185,33 @@ namespace MobileShop
 
         private void comboBoxIMEI_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            string selectedIMEI = comboBoxIMEI.SelectedItem.ToString();
+
+            try
+            {
+                using (SqlConnection connection = DatabaseHelper.GetConnection())
+                {
+                    connection.Open();
+                    string query = "SELECT Price FROM Mobile WHERE IMEINo = @imei";
+                    SqlCommand cmd = new SqlCommand(query, connection);
+                    cmd.Parameters.AddWithValue("@imei", selectedIMEI);
+
+                    object result = cmd.ExecuteScalar();
+                    if (result != null)
+                    {
+                        txtPrice.Text = result.ToString();
+                    }
+                    else
+                    {
+                        txtPrice.Text = "N/A";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+
         }
 
         private void comboBoxCompName_SelectedIndexChanged(object sender, EventArgs e)

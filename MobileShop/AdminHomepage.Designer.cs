@@ -48,6 +48,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.Mobile = new System.Windows.Forms.TabPage();
+            this.cboWarranty = new System.Windows.Forms.ComboBox();
+            this.label26 = new System.Windows.Forms.Label();
             this.cboModelName = new System.Windows.Forms.ComboBox();
             this.txtStatus = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -112,8 +114,6 @@
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.btnLogout = new System.Windows.Forms.Button();
-            this.label26 = new System.Windows.Forms.Label();
-            this.cboWarranty = new System.Windows.Forms.ComboBox();
             this.mainTabControl.SuspendLayout();
             this.Add.SuspendLayout();
             this.tabAddSub.SuspendLayout();
@@ -363,6 +363,26 @@
             this.Mobile.TabIndex = 2;
             this.Mobile.Text = "Mobile";
             this.Mobile.UseVisualStyleBackColor = true;
+            // 
+            // cboWarranty
+            // 
+            this.cboWarranty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboWarranty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboWarranty.FormattingEnabled = true;
+            this.cboWarranty.Location = new System.Drawing.Point(350, 146);
+            this.cboWarranty.Name = "cboWarranty";
+            this.cboWarranty.Size = new System.Drawing.Size(175, 28);
+            this.cboWarranty.TabIndex = 34;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Location = new System.Drawing.Point(110, 194);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(44, 20);
+            this.label26.TabIndex = 33;
+            this.label26.Text = "Price";
             // 
             // cboModelName
             // 
@@ -1044,26 +1064,6 @@
             this.btnLogout.Text = "Log Out";
             this.btnLogout.UseVisualStyleBackColor = false;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(110, 194);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(44, 20);
-            this.label26.TabIndex = 33;
-            this.label26.Text = "Price";
-            // 
-            // cboWarranty
-            // 
-            this.cboWarranty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboWarranty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cboWarranty.FormattingEnabled = true;
-            this.cboWarranty.Location = new System.Drawing.Point(350, 146);
-            this.cboWarranty.Name = "cboWarranty";
-            this.cboWarranty.Size = new System.Drawing.Size(175, 28);
-            this.cboWarranty.TabIndex = 34;
             // 
             // AdminHomepage
             // 

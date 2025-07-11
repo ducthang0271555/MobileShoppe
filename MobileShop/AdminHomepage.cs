@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace MobileShop
@@ -404,12 +405,13 @@ namespace MobileShop
                 return;
             }
 
-            if (imeino.Length > 50)
+            if (imeino.Length != 16 || !Regex.IsMatch(imeino, @"^\d{16}$"))
             {
-                MessageBox.Show("IMEI No. không được vượt quá 50 ký tự.", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("IMEI No phải là 16 chữ số và chỉ chứa số.", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txtIMEINO.Focus();
                 return;
             }
+
             if (status.Length > 20)
             {
                 MessageBox.Show("Status không được vượt quá 20 ký tự.", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);

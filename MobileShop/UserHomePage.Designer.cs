@@ -76,7 +76,7 @@ namespace MobileShop
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(361, 517);
@@ -103,9 +103,9 @@ namespace MobileShop
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage1.Size = new System.Drawing.Size(353, 491);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Sales";
@@ -115,7 +115,7 @@ namespace MobileShop
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(138, 436);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(91, 43);
             this.button1.TabIndex = 17;
@@ -127,11 +127,11 @@ namespace MobileShop
             // 
             this.txtPrice.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPrice.Location = new System.Drawing.Point(180, 380);
-            this.txtPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPrice.Margin = new System.Windows.Forms.Padding(2);
             this.txtPrice.Name = "txtPrice";
+            this.txtPrice.ReadOnly = true;
             this.txtPrice.Size = new System.Drawing.Size(152, 24);
             this.txtPrice.TabIndex = 16;
-            this.txtPrice.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             this.txtPrice.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrice_KeyPress_1);
             // 
             // label9
@@ -150,7 +150,7 @@ namespace MobileShop
             this.comboBoxIMEI.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxIMEI.FormattingEnabled = true;
             this.comboBoxIMEI.Location = new System.Drawing.Point(180, 343);
-            this.comboBoxIMEI.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxIMEI.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxIMEI.Name = "comboBoxIMEI";
             this.comboBoxIMEI.Size = new System.Drawing.Size(152, 21);
             this.comboBoxIMEI.TabIndex = 14;
@@ -172,7 +172,7 @@ namespace MobileShop
             this.comboBoxModel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxModel.FormattingEnabled = true;
             this.comboBoxModel.Location = new System.Drawing.Point(180, 307);
-            this.comboBoxModel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxModel.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxModel.Name = "comboBoxModel";
             this.comboBoxModel.Size = new System.Drawing.Size(152, 21);
             this.comboBoxModel.TabIndex = 12;
@@ -194,7 +194,7 @@ namespace MobileShop
             this.comboBoxCompany.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCompany.FormattingEnabled = true;
             this.comboBoxCompany.Location = new System.Drawing.Point(180, 267);
-            this.comboBoxCompany.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxCompany.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxCompany.Name = "comboBoxCompany";
             this.comboBoxCompany.Size = new System.Drawing.Size(152, 21);
             this.comboBoxCompany.TabIndex = 10;
@@ -215,7 +215,7 @@ namespace MobileShop
             // 
             this.txtEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmail.Location = new System.Drawing.Point(180, 216);
-            this.txtEmail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(2);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(152, 24);
             this.txtEmail.TabIndex = 8;
@@ -236,7 +236,7 @@ namespace MobileShop
             // 
             this.txtAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAddress.Location = new System.Drawing.Point(180, 148);
-            this.txtAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAddress.Margin = new System.Windows.Forms.Padding(2);
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(152, 50);
@@ -257,7 +257,7 @@ namespace MobileShop
             // 
             this.txtMobileNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMobileNumber.Location = new System.Drawing.Point(180, 102);
-            this.txtMobileNumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMobileNumber.Margin = new System.Windows.Forms.Padding(2);
             this.txtMobileNumber.Name = "txtMobileNumber";
             this.txtMobileNumber.Size = new System.Drawing.Size(152, 24);
             this.txtMobileNumber.TabIndex = 4;
@@ -277,7 +277,7 @@ namespace MobileShop
             // 
             this.txtCustomerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCustomerName.Location = new System.Drawing.Point(180, 54);
-            this.txtCustomerName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCustomerName.Margin = new System.Windows.Forms.Padding(2);
             this.txtCustomerName.Name = "txtCustomerName";
             this.txtCustomerName.Size = new System.Drawing.Size(152, 24);
             this.txtCustomerName.TabIndex = 2;
@@ -314,9 +314,9 @@ namespace MobileShop
             this.tabPage2.Controls.Add(this.label11);
             this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage2.Size = new System.Drawing.Size(353, 491);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "viewstock";
@@ -326,7 +326,7 @@ namespace MobileShop
             // txtAvailabel
             // 
             this.txtAvailabel.Location = new System.Drawing.Point(206, 171);
-            this.txtAvailabel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAvailabel.Margin = new System.Windows.Forms.Padding(2);
             this.txtAvailabel.Name = "txtAvailabel";
             this.txtAvailabel.ReadOnly = true;
             this.txtAvailabel.Size = new System.Drawing.Size(92, 20);
@@ -345,9 +345,10 @@ namespace MobileShop
             // 
             // comboBoxMobile
             // 
+            this.comboBoxMobile.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxMobile.FormattingEnabled = true;
             this.comboBoxMobile.Location = new System.Drawing.Point(206, 118);
-            this.comboBoxMobile.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxMobile.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxMobile.Name = "comboBoxMobile";
             this.comboBoxMobile.Size = new System.Drawing.Size(92, 21);
             this.comboBoxMobile.TabIndex = 4;
@@ -366,9 +367,10 @@ namespace MobileShop
             // 
             // comboBoxCompName
             // 
+            this.comboBoxCompName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxCompName.FormattingEnabled = true;
             this.comboBoxCompName.Location = new System.Drawing.Point(206, 68);
-            this.comboBoxCompName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxCompName.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxCompName.Name = "comboBoxCompName";
             this.comboBoxCompName.Size = new System.Drawing.Size(92, 21);
             this.comboBoxCompName.TabIndex = 2;
@@ -404,9 +406,9 @@ namespace MobileShop
             this.tabPage3.Controls.Add(this.dataGridView1);
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(2);
             this.tabPage3.Size = new System.Drawing.Size(353, 491);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "searchCustomerByIMEI";
@@ -428,7 +430,7 @@ namespace MobileShop
             // 
             this.imeiInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.imeiInput.Location = new System.Drawing.Point(195, 36);
-            this.imeiInput.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.imeiInput.Margin = new System.Windows.Forms.Padding(2);
             this.imeiInput.Name = "imeiInput";
             this.imeiInput.Size = new System.Drawing.Size(154, 24);
             this.imeiInput.TabIndex = 2;
@@ -448,7 +450,7 @@ namespace MobileShop
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(20, 141);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
@@ -477,7 +479,7 @@ namespace MobileShop
             this.ClientSize = new System.Drawing.Size(355, 565);
             this.Controls.Add(this.btnLogout);
             this.Controls.Add(this.tabControl1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UserHomePage";
             this.Text = "UserHomePage";
             this.Load += new System.EventHandler(this.UserHomePage_Load);
